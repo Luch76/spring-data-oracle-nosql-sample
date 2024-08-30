@@ -1,0 +1,3 @@
+cloud:
+  oci:
+    region: "us-ashburn-1"
