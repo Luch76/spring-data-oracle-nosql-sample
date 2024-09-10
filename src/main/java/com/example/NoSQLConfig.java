@@ -24,6 +24,7 @@ public class NoSQLConfig extends AbstractNosqlConfiguration {
      */
     @Bean
     public NosqlDbConfig nosqlDbConfig() throws IOException {
-        return new NosqlDbConfig(region, new SignatureProvider());
+        //return new NosqlDbConfig(region, new SignatureProvider());
+        return NosqlDbConfig.createCloudConfig(region, "~/.oci/config", "NOSQL");
     }
 }
