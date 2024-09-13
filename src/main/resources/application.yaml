@@ -1,3 +1,8 @@
 cloud:
   oci:
     region: "us-ashburn-1"
+    compartment-id: "ocid1.compartment.oc1..aaaaaaaapgv2v2jucgpscdcwruuas5bjownssto4pxbufpad3gnghkfil6sq"
+    tenancy-id: "ocid1.tenancy.oc1..aaaaaaaawfshyyd5q432n5wqr3h5utzlnjqlxap7xg4ubndbncngqwm5uswa"
+    user-id: "ocid1.user.oc1..aaaaaaaar4emiojoqj2fbk573mhsdlliier7xyvbdcyfubgg7s2xeldms5oa"
+    private-key-file: "/Users/darthluch/.oci/belottol@objectcomputing.com_2024-09-10T13_00_38.270Z.pem"
+    fingerprint-of-key-file: "3a:53:8e:0f:e1:31:18:18:38:49:05:dd:29:e8:1f:a4"
